@@ -12,7 +12,7 @@
             "justMyCode": false,
             "module": "flask",
             "env": {
-                "FLASK_APP": "hello_flask_app.application"
+                "FLASK_APP": "hello_flask_app.webapp"
             },
             "args": [
                 "run",
