@@ -12,11 +12,13 @@
             "justMyCode": false,
             "module": "flask",
             "env": {
-                "FLASK_APP": "hello_flask_app.webapp"
+                "FLASK_APP": "hello_flask_app.webapp",
+                "FLASK_ENV": "development",
+                "FLASK_DEBUG": "1"
             },
             "args": [
-                "run",
-                "--no-debugger"
+                "run"
+                // "--no-debugger"
             ],
             "jinja": true
         }
